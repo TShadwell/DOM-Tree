@@ -163,7 +163,13 @@ body {
 }
 
 
-
+#christmasMessage {
+	font-size:xx-large;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+}
 
 
 
