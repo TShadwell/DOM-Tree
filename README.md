@@ -1,8 +1,4 @@
-# DOM Tree
-
-Happy holidays! I didn't get a pine tree for Christmas this year so I decided to compensate by creating a digital counterpart out of HTML form elements.
-
-[Check out the live demo](http://hakim.se/experiments/css/domtree).
+A modification of @hakim's wonderful DOM christmas tree to include the days until christmas as a someple demonstration of forking and commiting.
 
 # License
 
