@@ -130,5 +130,23 @@
 	}
 
 	resize();
+	
+	(function(){
+		var	today 		= new Date(),
+			christmas 	= new Date(today.getFullYear(), 11, 26),
+			setMessage	= function(x){
+				document.getElementById("christmasMessage").innerHTML = x;
+			};
+			today.setHours(0);
+  			today.setMinutes(0);
+  			today.setSeconds(0);
+  			today.setMilliseconds(0);
+		var howLong = Math.round( (christmas-today) / 1000 / 60 /60 /24 );
+		if (howLong > 0) {
+			setMessage("There are " + howLong + " days until Christmas!");
+		} else {
+			setMessage("You'll have to wait until next year!");
+		}
 
+	})();
 })()
