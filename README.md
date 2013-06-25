@@ -1,4 +1,4 @@
-A modification of @hakim's wonderful DOM christmas tree to include the days until christmas as a someple demonstration of forking and commiting.
+A modification of @hakim's wonderful DOM christmas tree to include the days until christmas as a simple demonstration of forking and commiting.
 
 # License
 
